@@ -20,6 +20,7 @@ import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
 
+import java.io.File;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
@@ -61,6 +62,14 @@ public class LuceneHelper {
 
     public static IndexWriter createWriter(String indexName) throws Exception {
         String workingDir = System.getProperty("user.dir");
+
+        // Check if DATA/lucene exists
+        String directoryPath = workingDir + "/DATA/lucene/";
+        File directory = new File(directoryPath);
+        if (!directory.exists()) {
+            directory.mkdir();
+        }
+
         FSDirectory dir = FSDirectory.open(Paths.get(workingDir + "/DATA/lucene/" + indexName));
         IndexWriterConfig config = new IndexWriterConfig(new StandardAnalyzer());
         IndexWriter writer = new IndexWriter(dir, config);

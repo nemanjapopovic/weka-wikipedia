@@ -66,11 +66,11 @@ public class InformationRetrieval {
             instances = WekaHelper.loadDataSet(dataFileName);
             instancesWithoutClass = WekaHelper.loadDataSetWithoutClass(dataFileName);
 
-            // Load all wiki files from the wiki documents
-            wikipediaDocuments = new WikipediaDocuments(classes, instances);
-
             // Load all search queries used for testing
             queries = new ShortQueries(instances);
+
+            // Load all wiki files from the wiki documents
+            wikipediaDocuments = new WikipediaDocuments(classes, instances);
 
             // Create global lucene search with all wikipedia files in one
             luceneGlobal.putDocumentInGlobalLuceneIndex(wikipediaDocuments.documents);
