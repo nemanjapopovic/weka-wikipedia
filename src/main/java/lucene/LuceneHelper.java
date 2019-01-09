@@ -1,7 +1,9 @@
 package lucene;
 
+import com.github.slugify.Slugify;
 import models.SearchResult;
 import models.SearchResults;
+import models.WikipediaDocument;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
@@ -12,7 +14,10 @@ import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.queryparser.classic.QueryParser;
-import org.apache.lucene.search.*;
+import org.apache.lucene.search.IndexSearcher;
+import org.apache.lucene.search.Query;
+import org.apache.lucene.search.ScoreDoc;
+import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
 
 import java.nio.file.Paths;
@@ -22,18 +27,18 @@ public class LuceneHelper {
 
     public static SearchResults getSearchResults(IndexSearcher searcher, String textQuery, Integer numberOfResults) throws Exception {
         QueryParser qp = new QueryParser("text", new StandardAnalyzer());
-        Query idQuery = qp.parse(textQuery);
+        Query idQuery = qp.parse(textQuery.toLowerCase());
 
-        TopDocs hits = searcher.search(idQuery, numberOfResults, Sort.RELEVANCE);
+        TopDocs hits = searcher.search(idQuery, numberOfResults);
 
         ArrayList<SearchResult> searchItems = new ArrayList<SearchResult>();
-        SearchResults result = new SearchResults(0, searchItems);
+        SearchResults result = new SearchResults(textQuery, 0, searchItems);
 
         ScoreDoc[] docHits = hits.scoreDocs;
 
-        for (int i = 0; i < hits.totalHits; i++) {
+        for (int i = 0; i < docHits.length; i++) {
             Document d = searcher.doc(docHits[i].doc);
-            searchItems.add(new SearchResult(d.get("name"), d.get("text"), docHits[i].score));
+            searchItems.add(new SearchResult(d.get("id"), d.get("text"), docHits[i].score));
         }
 
         result.TotalHits = hits.totalHits;
@@ -42,10 +47,15 @@ public class LuceneHelper {
         return result;
     }
 
-    public static Document createDocument(String name, String text) {
+    public static Document createDocument(WikipediaDocument wikiDocument) {
+        Slugify slg = new Slugify();
+        String slug = slg.slugify(wikiDocument.type + "__" + wikiDocument.name);
+
         Document document = new Document();
-        document.add(new StringField("name", name, Field.Store.YES));
-        document.add(new TextField("text", text, Field.Store.YES));
+
+        // Store all as lower-case values
+        document.add(new StringField("id", slug, Field.Store.YES));
+        document.add(new TextField("text", wikiDocument.text.toLowerCase(), Field.Store.YES));
         return document;
     }
 

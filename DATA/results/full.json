@@ -1,0 +1,408 @@
+[
+  {
+    "query": "painting",
+    "TotalHits": 100,
+    "SearchResults": [
+      {
+        "Title": "art__painting-txt",
+        "Score": 5.4118085
+      },
+      {
+        "Title": "art__history-of-painting-txt",
+        "Score": 5.367324
+      },
+      {
+        "Title": "art__genre-art-txt",
+        "Score": 5.3397317
+      },
+      {
+        "Title": "art__still-life-txt",
+        "Score": 5.2805777
+      },
+      {
+        "Title": "art__the-birth-of-venus-botticelli-txt",
+        "Score": 5.2495193
+      },
+      {
+        "Title": "art__landscape-painting-txt",
+        "Score": 5.2475877
+      },
+      {
+        "Title": "art__mona-lisa-txt",
+        "Score": 5.2302494
+      },
+      {
+        "Title": "art__monochrome-painting-txt",
+        "Score": 5.211584
+      },
+      {
+        "Title": "art__the-raft-of-the-medusa-txt",
+        "Score": 5.1789155
+      },
+      {
+        "Title": "art__visual-arts-txt",
+        "Score": 5.1752057
+      },
+      {
+        "Title": "art__le-dejeuner-sur-lherbe-txt",
+        "Score": 5.170143
+      },
+      {
+        "Title": "art__guernica-painting-txt",
+        "Score": 5.1504803
+      },
+      {
+        "Title": "art__renaissance-art-txt",
+        "Score": 5.133912
+      },
+      {
+        "Title": "art__edouard-manet-txt",
+        "Score": 5.133912
+      },
+      {
+        "Title": "art__fine-art-txt",
+        "Score": 5.0886083
+      },
+      {
+        "Title": "art__art-movement-txt",
+        "Score": 5.0679674
+      },
+      {
+        "Title": "art__impressionism-txt",
+        "Score": 5.0541553
+      },
+      {
+        "Title": "art__postmodern-art-txt",
+        "Score": 5.042806
+      },
+      {
+        "Title": "art__modern-art-txt",
+        "Score": 5.028522
+      },
+      {
+        "Title": "art__the-arts-txt",
+        "Score": 5.025538
+      },
+      {
+        "Title": "art__contemporary-art-txt",
+        "Score": 5.018379
+      },
+      {
+        "Title": "art__portrait-of-madame-x-txt",
+        "Score": 5.018379
+      },
+      {
+        "Title": "art__academic-art-txt",
+        "Score": 4.9997835
+      },
+      {
+        "Title": "art__iconography-txt",
+        "Score": 4.98621
+      },
+      {
+        "Title": "art__formalism-art-txt",
+        "Score": 4.936974
+      },
+      {
+        "Title": "art__self-portrait-txt",
+        "Score": 4.91172
+      },
+      {
+        "Title": "art__history-of-art-txt",
+        "Score": 4.8018785
+      },
+      {
+        "Title": "art__outline-of-the-visual-arts-txt",
+        "Score": 4.782691
+      },
+      {
+        "Title": "art__classificatory-disputes-about-art-txt",
+        "Score": 4.7733216
+      },
+      {
+        "Title": "literature__allegory-txt",
+        "Score": 4.7665305
+      },
+      {
+        "Title": "art__cave-painting-txt",
+        "Score": 4.7322702
+      },
+      {
+        "Title": "art__francisco-goya-txt",
+        "Score": 4.7322702
+      },
+      {
+        "Title": "art__vincent-van-gogh-txt",
+        "Score": 4.7180376
+      },
+      {
+        "Title": "art__marcel-duchamp-txt",
+        "Score": 4.709568
+      },
+      {
+        "Title": "art__sfumato-txt",
+        "Score": 4.706271
+      },
+      {
+        "Title": "art__islamic-art-txt",
+        "Score": 4.691202
+      },
+      {
+        "Title": "art__work-of-art-txt",
+        "Score": 4.582744
+      },
+      {
+        "Title": "art__pablo-picasso-txt",
+        "Score": 4.5730815
+      },
+      {
+        "Title": "art__pop-art-txt",
+        "Score": 4.514308
+      },
+      {
+        "Title": "art__the-great-wave-off-kanagawa-txt",
+        "Score": 4.4812264
+      },
+      {
+        "Title": "art__andy-warhol-txt",
+        "Score": 4.4713373
+      },
+      {
+        "Title": "art__cubism-txt",
+        "Score": 4.425956
+      },
+      {
+        "Title": "art__byzantine-art-txt",
+        "Score": 4.396724
+      },
+      {
+        "Title": "art__medieval-art-txt",
+        "Score": 4.3964105
+      },
+      {
+        "Title": "art__the-last-judgment-michelangelo-txt",
+        "Score": 4.384828
+      },
+      {
+        "Title": "art__decorative-arts-txt",
+        "Score": 4.376103
+      },
+      {
+        "Title": "art__conceptual-art-txt",
+        "Score": 4.3202624
+      },
+      {
+        "Title": "art__art-txt",
+        "Score": 4.294003
+      },
+      {
+        "Title": "art__sandro-botticelli-txt",
+        "Score": 4.282443
+      },
+      {
+        "Title": "art__rembrandt-txt",
+        "Score": 4.1915674
+      },
+      {
+        "Title": "art__art-manifesto-txt",
+        "Score": 4.0314455
+      },
+      {
+        "Title": "art__michelangelo-txt",
+        "Score": 4.0314455
+      },
+      {
+        "Title": "art__performance-art-txt",
+        "Score": 3.9876304
+      },
+      {
+        "Title": "art__prehistoric-art-txt",
+        "Score": 3.9433017
+      },
+      {
+        "Title": "art__life-imitating-art-txt",
+        "Score": 3.7839563
+      },
+      {
+        "Title": "architecture__florence-cathedral-txt",
+        "Score": 3.6607995
+      },
+      {
+        "Title": "art__graffiti-txt",
+        "Score": 3.6135383
+      },
+      {
+        "Title": "biology__chromosome-txt",
+        "Score": 3.5559967
+      },
+      {
+        "Title": "philosophy__aesthetics-txt",
+        "Score": 3.541772
+      },
+      {
+        "Title": "art__anti-art-txt",
+        "Score": 3.5050406
+      },
+      {
+        "Title": "literature__bengali-poetry-txt",
+        "Score": 3.4341822
+      },
+      {
+        "Title": "literature__oral-literature-txt",
+        "Score": 3.4341822
+      },
+      {
+        "Title": "art__surrealism-txt",
+        "Score": 3.2520247
+      },
+      {
+        "Title": "architecture__taj-mahal-txt",
+        "Score": 3.1808615
+      },
+      {
+        "Title": "art__printmaking-txt",
+        "Score": 3.13591
+      },
+      {
+        "Title": "art__street-art-txt",
+        "Score": 3.13591
+      },
+      {
+        "Title": "architecture__villa-capra-la-rotonda-txt",
+        "Score": 3.1046062
+      },
+      {
+        "Title": "art__uffizi-txt",
+        "Score": 3.1046062
+      },
+      {
+        "Title": "literature__indian-poetry-txt",
+        "Score": 3.1046062
+      },
+      {
+        "Title": "literature__trope-literature-txt",
+        "Score": 3.1046062
+      },
+      {
+        "Title": "music__music-of-greenland-txt",
+        "Score": 3.1046062
+      },
+      {
+        "Title": "architecture__filippo-brunelleschi-txt",
+        "Score": 2.8703654
+      },
+      {
+        "Title": "literature__dialogue-txt",
+        "Score": 2.8703654
+      },
+      {
+        "Title": "literature__metaphor-txt",
+        "Score": 2.8703654
+      },
+      {
+        "Title": "philosophy__iranian-philosophy-txt",
+        "Score": 2.8703654
+      },
+      {
+        "Title": "art__african-art-txt",
+        "Score": 2.6266677
+      },
+      {
+        "Title": "art__metropolitan-museum-of-art-txt",
+        "Score": 2.6266677
+      },
+      {
+        "Title": "literature__japanese-poetry-txt",
+        "Score": 2.6266677
+      },
+      {
+        "Title": "physics__infrared-txt",
+        "Score": 2.6266677
+      },
+      {
+        "Title": "architecture__de-architectura-txt",
+        "Score": 2.5714407
+      },
+      {
+        "Title": "architecture__notre-dame-de-paris-txt",
+        "Score": 2.5714407
+      },
+      {
+        "Title": "art__constructivism-art-txt",
+        "Score": 2.5714407
+      },
+      {
+        "Title": "music__contemporary-classical-music-txt",
+        "Score": 2.5714407
+      },
+      {
+        "Title": "music__music-of-argentina-txt",
+        "Score": 2.5714407
+      },
+      {
+        "Title": "physics__electrostatics-txt",
+        "Score": 2.5714407
+      },
+      {
+        "Title": "literature__writer-txt",
+        "Score": 2.307967
+      },
+      {
+        "Title": "art__291-art-gallery-txt",
+        "Score": 2.1927245
+      },
+      {
+        "Title": "chemistry__metal-txt",
+        "Score": 2.1927245
+      },
+      {
+        "Title": "literature__essay-txt",
+        "Score": 2.1927245
+      },
+      {
+        "Title": "literature__narrative-txt",
+        "Score": 2.1927245
+      },
+      {
+        "Title": "music__renaissance-music-txt",
+        "Score": 2.1927245
+      },
+      {
+        "Title": "art__sculpture-txt",
+        "Score": 2.0284703
+      },
+      {
+        "Title": "philosophy__immanuel-kant-txt",
+        "Score": 1.8559271
+      },
+      {
+        "Title": "architecture__gothic-revival-architecture-txt",
+        "Score": 1.7250265
+      },
+      {
+        "Title": "literature__english-poetry-txt",
+        "Score": 1.7250265
+      },
+      {
+        "Title": "music__music-of-iran-txt",
+        "Score": 1.7250265
+      },
+      {
+        "Title": "philosophy__jainism-txt",
+        "Score": 1.7250265
+      },
+      {
+        "Title": "literature__indian-literature-txt",
+        "Score": 1.1808591
+      },
+      {
+        "Title": "music__ludwig-van-beethoven-txt",
+        "Score": 1.1808591
+      },
+      {
+        "Title": "architecture__romanesque-architecture-txt",
+        "Score": 0.8964529
+      }
+    ]
+  }
+]

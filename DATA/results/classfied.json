@@ -1,0 +1,42 @@
+[
+  {
+    "query": "genetic",
+    "TotalHits": 1,
+    "SearchResults": [
+      {
+        "Title": "music__prehistoric-music-txt",
+        "Score": 5.4384375
+      }
+    ]
+  },
+  {
+    "query": "painting",
+    "TotalHits": 6,
+    "SearchResults": [
+      {
+        "Title": "art__sfumato-txt",
+        "Score": 6.7951956
+      },
+      {
+        "Title": "music__music-of-greenland-txt",
+        "Score": 4.2386775
+      },
+      {
+        "Title": "music__contemporary-classical-music-txt",
+        "Score": 3.417101
+      },
+      {
+        "Title": "music__music-of-argentina-txt",
+        "Score": 3.417101
+      },
+      {
+        "Title": "music__renaissance-music-txt",
+        "Score": 2.8596513
+      },
+      {
+        "Title": "music__music-of-iran-txt",
+        "Score": 2.1991951
+      }
+    ]
+  }
+]

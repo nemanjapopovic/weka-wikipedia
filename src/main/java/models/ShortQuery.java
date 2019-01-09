@@ -19,7 +19,7 @@ public class ShortQuery {
     private Instance makeInstance(String text, Instances instances) {
 
         // Create instance of length two.
-        Instance instance = new DenseInstance(1);
+        Instance instance = new DenseInstance(2);
 
         // Set value for message attribute
         instance.setValue(instances.attribute("text"), text);

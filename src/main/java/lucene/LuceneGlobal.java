@@ -2,11 +2,9 @@ package lucene;
 
 import models.SearchResults;
 import models.WikipediaDocument;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexWriter;
-import org.apache.lucene.queryparser.classic.QueryParser;
-import org.apache.lucene.search.*;
+import org.apache.lucene.search.IndexSearcher;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +19,7 @@ public class LuceneGlobal {
 
         for (WikipediaDocument wikiDocument :
                 documentList) {
-            Document document = LuceneHelper.createDocument(wikiDocument.name, wikiDocument.text);
+            Document document = LuceneHelper.createDocument(wikiDocument);
             documents.add(document);
         }
 

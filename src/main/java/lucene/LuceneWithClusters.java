@@ -1,5 +1,6 @@
 package lucene;
 
+import models.SearchResults;
 import models.WikipediaDocument;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexWriter;
@@ -20,7 +21,10 @@ public class LuceneWithClusters {
         this.classes = classes;
         // Create 10 different index writer's, each for one cluster
         for (int i = 0; i < classes.size(); i++) {
-            clusterWriterHashMap.put(i, LuceneHelper.createWriter("clustered/" + i));
+            IndexWriter writer = LuceneHelper.createWriter("clustered/" + i);
+            // Clear in order to have clean state every time
+            writer.deleteAll();
+            clusterWriterHashMap.put(i, writer);
         }
     }
 
@@ -31,8 +35,14 @@ public class LuceneWithClusters {
         }
     }
 
+    public SearchResults search(Integer clusterNumber, String textQuery, Integer numberOfResults) throws Exception {
+        IndexSearcher searcher = clusterSearcherHashMap.get(clusterNumber);
+
+        return LuceneHelper.getSearchResults(searcher, textQuery, numberOfResults);
+    }
+
     public void addDocument(WikipediaDocument wikiDocument, Integer cluster) throws Exception {
-        Document document = LuceneHelper.createDocument(wikiDocument.name, wikiDocument.text);
+        Document document = LuceneHelper.createDocument(wikiDocument);
         clusterWriterHashMap.get(cluster).addDocument(document);
     }
 

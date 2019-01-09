@@ -1,0 +1,32 @@
+[
+  {
+    "query": "painting",
+    "TotalHits": 6,
+    "SearchResults": [
+      {
+        "Title": "art__sfumato-txt",
+        "Score": 6.075273
+      },
+      {
+        "Title": "art__outline-of-the-visual-arts-txt",
+        "Score": 5.018923
+      },
+      {
+        "Title": "art__work-of-art-txt",
+        "Score": 4.4972763
+      },
+      {
+        "Title": "art__the-last-judgment-michelangelo-txt",
+        "Score": 4.3073187
+      },
+      {
+        "Title": "art__life-imitating-art-txt",
+        "Score": 3.4423673
+      },
+      {
+        "Title": "literature__trope-literature-txt",
+        "Score": 1.8473388
+      }
+    ]
+  }
+]

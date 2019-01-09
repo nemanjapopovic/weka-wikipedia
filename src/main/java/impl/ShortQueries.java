@@ -13,7 +13,8 @@ public class ShortQueries {
     public ShortQueries(Instances instances){
         // Load all short queries
         items = new ArrayList<>();
-        items.add(new ShortQuery("nasa", instances));
+        items.add(new ShortQuery("genetic", instances));
+        items.add(new ShortQuery("painting", instances));
     }
 
 }
