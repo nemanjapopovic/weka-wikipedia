@@ -1,5 +1,1277 @@
 [
   {
+    "query": "genetic",
+    "TotalHits": 115,
+    "SearchResults": [
+      {
+        "Title": "biology__genetic-drift-txt",
+        "Score": 5.0648775
+      },
+      {
+        "Title": "biology__genetic-code-txt",
+        "Score": 5.0555944
+      },
+      {
+        "Title": "biology__microevolution-txt",
+        "Score": 5.006672
+      },
+      {
+        "Title": "biology__nucleic-acid-sequence-txt",
+        "Score": 4.993885
+      },
+      {
+        "Title": "biology__gene-flow-txt",
+        "Score": 4.925161
+      },
+      {
+        "Title": "biology__evolution-txt",
+        "Score": 4.8981333
+      },
+      {
+        "Title": "computer-science__evolutionary-computation-txt",
+        "Score": 4.882605
+      },
+      {
+        "Title": "biology__natural-selection-txt",
+        "Score": 4.8524475
+      },
+      {
+        "Title": "biology__evolution-of-sexual-reproduction-txt",
+        "Score": 4.832017
+      },
+      {
+        "Title": "biology__gene-txt",
+        "Score": 4.832017
+      },
+      {
+        "Title": "biology__dna-txt",
+        "Score": 4.8159637
+      },
+      {
+        "Title": "biology__adaptation-txt",
+        "Score": 4.7947936
+      },
+      {
+        "Title": "biology__gene-pool-txt",
+        "Score": 4.7897916
+      },
+      {
+        "Title": "biology__chromosome-txt",
+        "Score": 4.76235
+      },
+      {
+        "Title": "biology__biodiversity-txt",
+        "Score": 4.757834
+      },
+      {
+        "Title": "biology__model-organism-txt",
+        "Score": 4.748861
+      },
+      {
+        "Title": "biology__speciation-txt",
+        "Score": 4.748861
+      },
+      {
+        "Title": "biology__genome-txt",
+        "Score": 4.716303
+      },
+      {
+        "Title": "biology__meiosis-txt",
+        "Score": 4.7061305
+      },
+      {
+        "Title": "biology__genotype-txt",
+        "Score": 4.6381187
+      },
+      {
+        "Title": "biology__rna-txt",
+        "Score": 4.548718
+      },
+      {
+        "Title": "biology__synthetic-biology-txt",
+        "Score": 4.534822
+      },
+      {
+        "Title": "biology__phenotype-txt",
+        "Score": 4.516701
+      },
+      {
+        "Title": "biology__organism-txt",
+        "Score": 4.5152802
+      },
+      {
+        "Title": "biology__virology-txt",
+        "Score": 4.5152802
+      },
+      {
+        "Title": "biology__evolutionary-biology-txt",
+        "Score": 4.50144
+      },
+      {
+        "Title": "biology__selective-breeding-txt",
+        "Score": 4.4504204
+      },
+      {
+        "Title": "computer-science__code-txt",
+        "Score": 4.391399
+      },
+      {
+        "Title": "biology__biology-txt",
+        "Score": 4.3340316
+      },
+      {
+        "Title": "biology__homo-sapiens-txt",
+        "Score": 4.3278747
+      },
+      {
+        "Title": "biology__arabidopsis-thaliana-txt",
+        "Score": 4.2749705
+      },
+      {
+        "Title": "biology__disease-txt",
+        "Score": 4.232003
+      },
+      {
+        "Title": "biology__regulation-of-gene-expression-txt",
+        "Score": 4.232003
+      },
+      {
+        "Title": "philosophy__constructivist-epistemology-txt",
+        "Score": 4.232003
+      },
+      {
+        "Title": "biology__ecology-txt",
+        "Score": 4.177564
+      },
+      {
+        "Title": "biology__protein-txt",
+        "Score": 4.151904
+      },
+      {
+        "Title": "biology__bacteroides-txt",
+        "Score": 4.140966
+      },
+      {
+        "Title": "biology__fauna-txt",
+        "Score": 4.140966
+      },
+      {
+        "Title": "biology__mitosis-txt",
+        "Score": 4.044275
+      },
+      {
+        "Title": "computer-science__bottleneck-txt",
+        "Score": 3.9939322
+      },
+      {
+        "Title": "biology__microbiology-txt",
+        "Score": 3.9801161
+      },
+      {
+        "Title": "biology__symbiosis-txt",
+        "Score": 3.9801161
+      },
+      {
+        "Title": "biology__archaea-txt",
+        "Score": 3.9584534
+      },
+      {
+        "Title": "biology__life-txt",
+        "Score": 3.9584534
+      },
+      {
+        "Title": "biology__virus-txt",
+        "Score": 3.9336023
+      },
+      {
+        "Title": "biology__bacteria-txt",
+        "Score": 3.8607745
+      },
+      {
+        "Title": "biology__species-txt",
+        "Score": 3.8607745
+      },
+      {
+        "Title": "biology__cell-growth-txt",
+        "Score": 3.765858
+      },
+      {
+        "Title": "biology__developmental-biology-txt",
+        "Score": 3.7488852
+      },
+      {
+        "Title": "biology__macroevolution-txt",
+        "Score": 3.7488852
+      },
+      {
+        "Title": "biology__cell-nucleus-txt",
+        "Score": 3.6139572
+      },
+      {
+        "Title": "biology__nervous-system-txt",
+        "Score": 3.6139572
+      },
+      {
+        "Title": "biology__nucleoid-txt",
+        "Score": 3.5735114
+      },
+      {
+        "Title": "biology__prokaryote-txt",
+        "Score": 3.5629945
+      },
+      {
+        "Title": "biology__zoology-txt",
+        "Score": 3.5629945
+      },
+      {
+        "Title": "biology__cell-division-txt",
+        "Score": 3.4416552
+      },
+      {
+        "Title": "computer-science__image-processing-txt",
+        "Score": 3.4416552
+      },
+      {
+        "Title": "biology__microorganism-txt",
+        "Score": 3.3582296
+      },
+      {
+        "Title": "biology__koala-txt",
+        "Score": 3.3447964
+      },
+      {
+        "Title": "biology__primate-txt",
+        "Score": 3.3447964
+      },
+      {
+        "Title": "biology__animal-txt",
+        "Score": 3.3101077
+      },
+      {
+        "Title": "biology__radiobiology-txt",
+        "Score": 3.3101077
+      },
+      {
+        "Title": "biology__embryology-txt",
+        "Score": 3.24319
+      },
+      {
+        "Title": "biology__entamoeba-txt",
+        "Score": 3.24319
+      },
+      {
+        "Title": "philosophy__epistemological-idealism-txt",
+        "Score": 3.24319
+      },
+      {
+        "Title": "philosophy__infinitism-txt",
+        "Score": 3.24319
+      },
+      {
+        "Title": "physics__ultraviolet-txt",
+        "Score": 3.0711632
+      },
+      {
+        "Title": "biology__eukaryote-txt",
+        "Score": 3.0039575
+      },
+      {
+        "Title": "philosophy__determinism-txt",
+        "Score": 3.0039575
+      },
+      {
+        "Title": "computer-science__data-compression-txt",
+        "Score": 2.9615064
+      },
+      {
+        "Title": "biology__habitat-txt",
+        "Score": 2.9319434
+      },
+      {
+        "Title": "biology__multicellular-organism-txt",
+        "Score": 2.9319434
+      },
+      {
+        "Title": "biology__population-biology-txt",
+        "Score": 2.9319434
+      },
+      {
+        "Title": "biology__spermatozoon-txt",
+        "Score": 2.9319434
+      },
+      {
+        "Title": "philosophy__moral-skepticism-txt",
+        "Score": 2.9319434
+      },
+      {
+        "Title": "biology__abiogenesis-txt",
+        "Score": 2.7994132
+      },
+      {
+        "Title": "biology__protist-txt",
+        "Score": 2.71073
+      },
+      {
+        "Title": "biology__soil-biology-txt",
+        "Score": 2.71073
+      },
+      {
+        "Title": "computer-science__computational-science-txt",
+        "Score": 2.71073
+      },
+      {
+        "Title": "music__prehistoric-music-txt",
+        "Score": 2.71073
+      },
+      {
+        "Title": "biology__amanita-muscaria-txt",
+        "Score": 2.4805856
+      },
+      {
+        "Title": "biology__canidae-txt",
+        "Score": 2.4805856
+      },
+      {
+        "Title": "biology__metabolism-txt",
+        "Score": 2.4805856
+      },
+      {
+        "Title": "biology__ornithology-txt",
+        "Score": 2.4805856
+      },
+      {
+        "Title": "chemistry__benzene-txt",
+        "Score": 2.4805856
+      },
+      {
+        "Title": "computer-science__algorithm-txt",
+        "Score": 2.4805856
+      },
+      {
+        "Title": "computer-science__artificial-intelligence-txt",
+        "Score": 2.4805856
+      },
+      {
+        "Title": "computer-science__data-mining-txt",
+        "Score": 2.4805856
+      },
+      {
+        "Title": "architecture__architectural-theory-txt",
+        "Score": 2.42843
+      },
+      {
+        "Title": "biology__cyanobacteria-txt",
+        "Score": 2.42843
+      },
+      {
+        "Title": "chemistry__analytical-chemistry-txt",
+        "Score": 2.42843
+      },
+      {
+        "Title": "computer-science__network-topology-txt",
+        "Score": 2.42843
+      },
+      {
+        "Title": "mathematics__topology-txt",
+        "Score": 2.42843
+      },
+      {
+        "Title": "biology__immune-system-txt",
+        "Score": 2.1796093
+      },
+      {
+        "Title": "physics__energy-txt",
+        "Score": 2.1796093
+      },
+      {
+        "Title": "biology__biomass-txt",
+        "Score": 2.070776
+      },
+      {
+        "Title": "biology__cellular-differentiation-txt",
+        "Score": 2.070776
+      },
+      {
+        "Title": "biology__natural-environment-txt",
+        "Score": 2.070776
+      },
+      {
+        "Title": "biology__parasitism-txt",
+        "Score": 2.070776
+      },
+      {
+        "Title": "computer-science__computer-simulation-txt",
+        "Score": 2.070776
+      },
+      {
+        "Title": "computer-science__grid-computing-txt",
+        "Score": 2.070776
+      },
+      {
+        "Title": "music__computer-music-txt",
+        "Score": 2.070776
+      },
+      {
+        "Title": "philosophy__free-will-txt",
+        "Score": 1.9156567
+      },
+      {
+        "Title": "biology__fossil-txt",
+        "Score": 1.6290891
+      },
+      {
+        "Title": "chemistry__chemistry-txt",
+        "Score": 1.6290891
+      },
+      {
+        "Title": "chemistry__polymer-txt",
+        "Score": 1.6290891
+      },
+      {
+        "Title": "chemistry__radon-txt",
+        "Score": 1.6290891
+      },
+      {
+        "Title": "chemistry__sulfur-txt",
+        "Score": 1.6290891
+      },
+      {
+        "Title": "philosophy__ethics-txt",
+        "Score": 1.6290891
+      },
+      {
+        "Title": "computer-science__history-of-artificial-intelligence-txt",
+        "Score": 1.3789786
+      },
+      {
+        "Title": "philosophy__epistemology-txt",
+        "Score": 1.3789786
+      },
+      {
+        "Title": "philosophy__reason-txt",
+        "Score": 1.3789786
+      },
+      {
+        "Title": "philosophy__romanian-philosophy-txt",
+        "Score": 1.1151855
+      },
+      {
+        "Title": "philosophy__plato-txt",
+        "Score": 0.84659666
+      },
+      {
+        "Title": "philosophy__immanuel-kant-txt",
+        "Score": 0.58653885
+      }
+    ]
+  },
+  {
+    "query": "algorithm",
+    "TotalHits": 97,
+    "SearchResults": [
+      {
+        "Title": "computer-science__algorithm-txt",
+        "Score": 5.461886
+      },
+      {
+        "Title": "computer-science__algorithm-design-txt",
+        "Score": 5.4558063
+      },
+      {
+        "Title": "computer-science__analysis-of-algorithms-txt",
+        "Score": 5.3646393
+      },
+      {
+        "Title": "computer-science__p-versus-np-problem-txt",
+        "Score": 5.2847195
+      },
+      {
+        "Title": "computer-science__distributed-computing-txt",
+        "Score": 5.2265935
+      },
+      {
+        "Title": "computer-science__undecidable-problem-txt",
+        "Score": 5.129369
+      },
+      {
+        "Title": "computer-science__quantum-computer-txt",
+        "Score": 5.1039023
+      },
+      {
+        "Title": "computer-science__routing-txt",
+        "Score": 5.086425
+      },
+      {
+        "Title": "computer-science__parallel-random-access-machine-txt",
+        "Score": 5.054122
+      },
+      {
+        "Title": "mathematics__elementary-arithmetic-txt",
+        "Score": 5.0436506
+      },
+      {
+        "Title": "computer-science__evolutionary-computation-txt",
+        "Score": 4.934338
+      },
+      {
+        "Title": "computer-science__cryptography-txt",
+        "Score": 4.899066
+      },
+      {
+        "Title": "mathematics__multiplication-txt",
+        "Score": 4.831153
+      },
+      {
+        "Title": "computer-science__machine-learning-txt",
+        "Score": 4.7896047
+      },
+      {
+        "Title": "mathematics__division-mathematics-txt",
+        "Score": 4.706347
+      },
+      {
+        "Title": "computer-science__data-compression-txt",
+        "Score": 4.6854715
+      },
+      {
+        "Title": "mathematics__numerical-analysis-txt",
+        "Score": 4.6803546
+      },
+      {
+        "Title": "computer-science__computational-geometry-txt",
+        "Score": 4.6681004
+      },
+      {
+        "Title": "mathematics__number-theory-txt",
+        "Score": 4.6448655
+      },
+      {
+        "Title": "computer-science__theory-of-computation-txt",
+        "Score": 4.6382666
+      },
+      {
+        "Title": "mathematics__graph-theory-txt",
+        "Score": 4.5815682
+      },
+      {
+        "Title": "mathematics__algebraic-geometry-txt",
+        "Score": 4.372605
+      },
+      {
+        "Title": "mathematics__arithmetic-txt",
+        "Score": 4.3343277
+      },
+      {
+        "Title": "computer-science__theoretical-computer-science-txt",
+        "Score": 4.280374
+      },
+      {
+        "Title": "computer-science__computer-programming-txt",
+        "Score": 4.2779937
+      },
+      {
+        "Title": "mathematics__function-mathematics-txt",
+        "Score": 4.2779937
+      },
+      {
+        "Title": "computer-science__turing-machine-txt",
+        "Score": 4.2423506
+      },
+      {
+        "Title": "computer-science__artificial-intelligence-txt",
+        "Score": 4.0802884
+      },
+      {
+        "Title": "mathematics__numerical-linear-algebra-txt",
+        "Score": 4.0488787
+      },
+      {
+        "Title": "computer-science__parsing-txt",
+        "Score": 4.043558
+      },
+      {
+        "Title": "computer-science__pattern-recognition-txt",
+        "Score": 4.043558
+      },
+      {
+        "Title": "mathematics__polynomial-txt",
+        "Score": 4.043558
+      },
+      {
+        "Title": "computer-science__programming-language-theory-txt",
+        "Score": 4.0177526
+      },
+      {
+        "Title": "mathematics__experimental-mathematics-txt",
+        "Score": 4.0177526
+      },
+      {
+        "Title": "computer-science__computation-txt",
+        "Score": 3.9274611
+      },
+      {
+        "Title": "computer-science__model-of-computation-txt",
+        "Score": 3.9274611
+      },
+      {
+        "Title": "mathematics__integral-txt",
+        "Score": 3.8731477
+      },
+      {
+        "Title": "computer-science__code-txt",
+        "Score": 3.81853
+      },
+      {
+        "Title": "computer-science__computability-txt",
+        "Score": 3.81853
+      },
+      {
+        "Title": "computer-science__software-design-txt",
+        "Score": 3.81853
+      },
+      {
+        "Title": "computer-science__symbolic-computation-txt",
+        "Score": 3.81853
+      },
+      {
+        "Title": "music__computer-music-txt",
+        "Score": 3.705152
+      },
+      {
+        "Title": "computer-science__parallel-computing-txt",
+        "Score": 3.5990796
+      },
+      {
+        "Title": "mathematics__prime-number-txt",
+        "Score": 3.5846827
+      },
+      {
+        "Title": "computer-science__coding-theory-txt",
+        "Score": 3.5475063
+      },
+      {
+        "Title": "biology__genotype-txt",
+        "Score": 3.4757893
+      },
+      {
+        "Title": "computer-science__history-of-artificial-intelligence-txt",
+        "Score": 3.2914248
+      },
+      {
+        "Title": "computer-science__programming-language-txt",
+        "Score": 3.2193992
+      },
+      {
+        "Title": "computer-science__concurrency-control-txt",
+        "Score": 3.1739035
+      },
+      {
+        "Title": "mathematics__four-color-theorem-txt",
+        "Score": 3.1739035
+      },
+      {
+        "Title": "mathematics__fractal-txt",
+        "Score": 3.1739035
+      },
+      {
+        "Title": "mathematics__linear-algebra-txt",
+        "Score": 3.1739035
+      },
+      {
+        "Title": "computer-science__linear-network-coding-txt",
+        "Score": 3.1422203
+      },
+      {
+        "Title": "mathematics__estimation-theory-txt",
+        "Score": 3.1422203
+      },
+      {
+        "Title": "mathematics__integer-txt",
+        "Score": 3.1422203
+      },
+      {
+        "Title": "mathematics__rational-number-txt",
+        "Score": 3.1422203
+      },
+      {
+        "Title": "mathematics__real-analysis-txt",
+        "Score": 3.1422203
+      },
+      {
+        "Title": "computer-science__automata-theory-txt",
+        "Score": 2.9051416
+      },
+      {
+        "Title": "computer-science__computational-science-txt",
+        "Score": 2.9051416
+      },
+      {
+        "Title": "computer-science__difference-engine-txt",
+        "Score": 2.9051416
+      },
+      {
+        "Title": "computer-science__formal-language-txt",
+        "Score": 2.9051416
+      },
+      {
+        "Title": "music__pitch-music-txt",
+        "Score": 2.9051416
+      },
+      {
+        "Title": "mathematics__vector-space-txt",
+        "Score": 2.8964944
+      },
+      {
+        "Title": "computer-science__computability-theory-txt",
+        "Score": 2.6584914
+      },
+      {
+        "Title": "computer-science__computer-science-txt",
+        "Score": 2.6584914
+      },
+      {
+        "Title": "computer-science__data-mining-txt",
+        "Score": 2.6584914
+      },
+      {
+        "Title": "mathematics__mathematical-logic-txt",
+        "Score": 2.6584914
+      },
+      {
+        "Title": "mathematics__number-txt",
+        "Score": 2.6584914
+      },
+      {
+        "Title": "art__visual-arts-txt",
+        "Score": 2.6025953
+      },
+      {
+        "Title": "computer-science__information-systems-txt",
+        "Score": 2.6025953
+      },
+      {
+        "Title": "computer-science__natural-language-processing-txt",
+        "Score": 2.6025953
+      },
+      {
+        "Title": "computer-science__throughput-txt",
+        "Score": 2.6025953
+      },
+      {
+        "Title": "mathematics__babylonian-mathematics-txt",
+        "Score": 2.6025953
+      },
+      {
+        "Title": "mathematics__combinatorics-txt",
+        "Score": 2.6025953
+      },
+      {
+        "Title": "mathematics__natural-number-txt",
+        "Score": 2.6025953
+      },
+      {
+        "Title": "mathematics__theorem-txt",
+        "Score": 2.6025953
+      },
+      {
+        "Title": "computer-science__compiler-txt",
+        "Score": 2.2192905
+      },
+      {
+        "Title": "computer-science__computational-neuroscience-txt",
+        "Score": 2.2192905
+      },
+      {
+        "Title": "computer-science__computer-simulation-txt",
+        "Score": 2.2192905
+      },
+      {
+        "Title": "mathematics__fraction-mathematics-txt",
+        "Score": 2.2192905
+      },
+      {
+        "Title": "mathematics__group-theory-txt",
+        "Score": 2.2192905
+      },
+      {
+        "Title": "mathematics__operations-research-txt",
+        "Score": 2.2192905
+      },
+      {
+        "Title": "mathematics__real-number-txt",
+        "Score": 2.2192905
+      },
+      {
+        "Title": "physics__maxwell-s-equations-txt",
+        "Score": 2.2192905
+      },
+      {
+        "Title": "computer-science__computer-txt",
+        "Score": 1.9680227
+      },
+      {
+        "Title": "biology__gene-txt",
+        "Score": 1.7459261
+      },
+      {
+        "Title": "mathematics__addition-txt",
+        "Score": 1.7459261
+      },
+      {
+        "Title": "mathematics__calculus-txt",
+        "Score": 1.7459261
+      },
+      {
+        "Title": "mathematics__euclidean-geometry-txt",
+        "Score": 1.7459261
+      },
+      {
+        "Title": "mathematics__fermat-s-last-theorem-txt",
+        "Score": 1.7459261
+      },
+      {
+        "Title": "mathematics__quaternion-txt",
+        "Score": 1.7459261
+      },
+      {
+        "Title": "philosophy__causality-txt",
+        "Score": 1.7459261
+      },
+      {
+        "Title": "physics__statistical-mechanics-txt",
+        "Score": 1.7459261
+      },
+      {
+        "Title": "computer-science__boolean-algebra-txt",
+        "Score": 1.477878
+      },
+      {
+        "Title": "computer-science__internet-txt",
+        "Score": 1.477878
+      },
+      {
+        "Title": "mathematics__riemann-hypothesis-txt",
+        "Score": 1.477878
+      },
+      {
+        "Title": "philosophy__aesthetics-txt",
+        "Score": 1.477878
+      }
+    ]
+  },
+  {
+    "query": "calculus",
+    "TotalHits": 92,
+    "SearchResults": [
+      {
+        "Title": "mathematics__calculus-txt",
+        "Score": 5.553271
+      },
+      {
+        "Title": "mathematics__vector-calculus-txt",
+        "Score": 5.5214133
+      },
+      {
+        "Title": "mathematics__tensor-calculus-txt",
+        "Score": 5.453682
+      },
+      {
+        "Title": "mathematics__integral-txt",
+        "Score": 5.3506565
+      },
+      {
+        "Title": "mathematics__mathematical-analysis-txt",
+        "Score": 5.2573547
+      },
+      {
+        "Title": "mathematics__real-analysis-txt",
+        "Score": 5.120382
+      },
+      {
+        "Title": "computer-science__type-theory-txt",
+        "Score": 5.103634
+      },
+      {
+        "Title": "mathematics__discrete-mathematics-txt",
+        "Score": 5.046254
+      },
+      {
+        "Title": "philosophy__gottfried-wilhelm-leibniz-txt",
+        "Score": 5.0281854
+      },
+      {
+        "Title": "mathematics__multilinear-algebra-txt",
+        "Score": 4.941293
+      },
+      {
+        "Title": "computer-science__programming-language-theory-txt",
+        "Score": 4.924597
+      },
+      {
+        "Title": "computer-science__boolean-algebra-txt",
+        "Score": 4.8467703
+      },
+      {
+        "Title": "mathematics__mathematical-fallacy-txt",
+        "Score": 4.765169
+      },
+      {
+        "Title": "computer-science__model-of-computation-txt",
+        "Score": 4.702367
+      },
+      {
+        "Title": "computer-science__functional-programming-txt",
+        "Score": 4.6768384
+      },
+      {
+        "Title": "mathematics__polynomial-txt",
+        "Score": 4.542527
+      },
+      {
+        "Title": "computer-science__logic-programming-txt",
+        "Score": 4.424456
+      },
+      {
+        "Title": "mathematics__differential-geometry-txt",
+        "Score": 4.424456
+      },
+      {
+        "Title": "computer-science__automated-reasoning-txt",
+        "Score": 4.369381
+      },
+      {
+        "Title": "mathematics__formal-system-txt",
+        "Score": 4.369381
+      },
+      {
+        "Title": "mathematics__geometry-txt",
+        "Score": 4.3669505
+      },
+      {
+        "Title": "physics__maxwell-s-equations-txt",
+        "Score": 4.3669505
+      },
+      {
+        "Title": "physics__mathematical-physics-txt",
+        "Score": 4.119867
+      },
+      {
+        "Title": "mathematics__logic-txt",
+        "Score": 4.074068
+      },
+      {
+        "Title": "philosophy__logic-philosophy-txt",
+        "Score": 4.074068
+      },
+      {
+        "Title": "computer-science__computation-txt",
+        "Score": 4.0091295
+      },
+      {
+        "Title": "computer-science__turing-machine-txt",
+        "Score": 3.9536862
+      },
+      {
+        "Title": "computer-science__computability-txt",
+        "Score": 3.897933
+      },
+      {
+        "Title": "mathematics__division-mathematics-txt",
+        "Score": 3.897933
+      },
+      {
+        "Title": "mathematics__multiplication-txt",
+        "Score": 3.897933
+      },
+      {
+        "Title": "mathematics__trigonometry-txt",
+        "Score": 3.897933
+      },
+      {
+        "Title": "mathematics__real-number-txt",
+        "Score": 3.782198
+      },
+      {
+        "Title": "philosophy__rene-descartes-txt",
+        "Score": 3.782198
+      },
+      {
+        "Title": "physics__lagrangian-mechanics-txt",
+        "Score": 3.782198
+      },
+      {
+        "Title": "computer-science__algorithm-txt",
+        "Score": 3.6739192
+      },
+      {
+        "Title": "computer-science__artificial-intelligence-txt",
+        "Score": 3.6739192
+      },
+      {
+        "Title": "mathematics__theorem-txt",
+        "Score": 3.6212738
+      },
+      {
+        "Title": "computer-science__theory-of-computation-txt",
+        "Score": 3.5480654
+      },
+      {
+        "Title": "mathematics__functional-analysis-txt",
+        "Score": 3.5480654
+      },
+      {
+        "Title": "mathematics__lie-theory-txt",
+        "Score": 3.5480654
+      },
+      {
+        "Title": "physics__quantum-statistical-mechanics-txt",
+        "Score": 3.5480654
+      },
+      {
+        "Title": "computer-science__parallel-computing-txt",
+        "Score": 3.2863443
+      },
+      {
+        "Title": "mathematics__mathematical-logic-txt",
+        "Score": 3.2863443
+      },
+      {
+        "Title": "philosophy__causality-txt",
+        "Score": 3.2863443
+      },
+      {
+        "Title": "computer-science__sql-txt",
+        "Score": 3.239902
+      },
+      {
+        "Title": "mathematics__areas-of-mathematics-txt",
+        "Score": 3.20756
+      },
+      {
+        "Title": "mathematics__if-and-only-if-txt",
+        "Score": 3.20756
+      },
+      {
+        "Title": "biology__systems-biology-txt",
+        "Score": 2.9655516
+      },
+      {
+        "Title": "computer-science__formal-language-txt",
+        "Score": 2.9655516
+      },
+      {
+        "Title": "computer-science__formal-methods-txt",
+        "Score": 2.9655516
+      },
+      {
+        "Title": "mathematics__analytic-geometry-txt",
+        "Score": 2.9655516
+      },
+      {
+        "Title": "mathematics__differential-equation-txt",
+        "Score": 2.9655516
+      },
+      {
+        "Title": "physics__theoretical-physics-txt",
+        "Score": 2.9655516
+      },
+      {
+        "Title": "mathematics__algebra-txt",
+        "Score": 2.7137723
+      },
+      {
+        "Title": "mathematics__algebraic-geometry-txt",
+        "Score": 2.7137723
+      },
+      {
+        "Title": "mathematics__number-txt",
+        "Score": 2.7137723
+      },
+      {
+        "Title": "computer-science__relational-database-txt",
+        "Score": 2.656714
+      },
+      {
+        "Title": "mathematics__category-theory-txt",
+        "Score": 2.656714
+      },
+      {
+        "Title": "mathematics__statistical-inference-txt",
+        "Score": 2.656714
+      },
+      {
+        "Title": "mathematics__topology-txt",
+        "Score": 2.656714
+      },
+      {
+        "Title": "philosophy__british-philosophy-txt",
+        "Score": 2.656714
+      },
+      {
+        "Title": "physics__acoustics-txt",
+        "Score": 2.656714
+      },
+      {
+        "Title": "physics__electrostatics-txt",
+        "Score": 2.656714
+      },
+      {
+        "Title": "physics__kepler-s-laws-of-planetary-motion-txt",
+        "Score": 2.656714
+      },
+      {
+        "Title": "physics__special-relativity-txt",
+        "Score": 2.3845031
+      },
+      {
+        "Title": "chemistry__chemical-equilibrium-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "computer-science__computer-programming-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "computer-science__knowledge-representation-and-reasoning-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "mathematics__axiom-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "mathematics__continuous-function-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "mathematics__fraction-mathematics-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "mathematics__function-mathematics-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "mathematics__graph-theory-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "mathematics__model-theory-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "physics__fundamental-interaction-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "physics__quantum-gravity-txt",
+        "Score": 2.2654388
+      },
+      {
+        "Title": "chemistry__chemistry-txt",
+        "Score": 1.7822312
+      },
+      {
+        "Title": "mathematics__lie-group-txt",
+        "Score": 1.7822312
+      },
+      {
+        "Title": "philosophy__atomism-txt",
+        "Score": 1.7822312
+      },
+      {
+        "Title": "physics__mass-txt",
+        "Score": 1.7822312
+      },
+      {
+        "Title": "physics__newton-s-laws-of-motion-txt",
+        "Score": 1.7822312
+      },
+      {
+        "Title": "computer-science__database-txt",
+        "Score": 1.5086092
+      },
+      {
+        "Title": "computer-science__history-of-artificial-intelligence-txt",
+        "Score": 1.5086092
+      },
+      {
+        "Title": "mathematics__pythagorean-theorem-txt",
+        "Score": 1.5086092
+      },
+      {
+        "Title": "mathematics__ring-mathematics-txt",
+        "Score": 1.5086092
+      },
+      {
+        "Title": "mathematics__vector-space-txt",
+        "Score": 1.5086092
+      },
+      {
+        "Title": "philosophy__epistemology-txt",
+        "Score": 1.5086092
+      },
+      {
+        "Title": "physics__energy-txt",
+        "Score": 1.5086092
+      },
+      {
+        "Title": "physics__force-txt",
+        "Score": 1.5086092
+      },
+      {
+        "Title": "physics__general-relativity-txt",
+        "Score": 1.5086092
+      },
+      {
+        "Title": "physics__loop-quantum-gravity-txt",
+        "Score": 1.2200183
+      },
+      {
+        "Title": "physics__optics-txt",
+        "Score": 1.2200183
+      }
+    ]
+  },
+  {
+    "query": "email",
+    "TotalHits": 8,
+    "SearchResults": [
+      {
+        "Title": "computer-science__internet-txt",
+        "Score": 8.125177
+      },
+      {
+        "Title": "computer-science__pattern-recognition-txt",
+        "Score": 7.2758455
+      },
+      {
+        "Title": "computer-science__machine-learning-txt",
+        "Score": 6.9662743
+      },
+      {
+        "Title": "computer-science__database-txt",
+        "Score": 6.463404
+      },
+      {
+        "Title": "computer-science__cryptography-txt",
+        "Score": 5.2205067
+      },
+      {
+        "Title": "computer-science__software-txt",
+        "Score": 5.110743
+      },
+      {
+        "Title": "literature__epistolary-novel-txt",
+        "Score": 5.110743
+      },
+      {
+        "Title": "computer-science__operating-system-txt",
+        "Score": 2.9021242
+      }
+    ]
+  },
+  {
     "query": "painting",
     "TotalHits": 100,
     "SearchResults": [

@@ -10,6 +10,26 @@
     ]
   },
   {
+    "query": "algorithm",
+    "TotalHits": 1,
+    "SearchResults": [
+      {
+        "Title": "music__pitch-music-txt",
+        "Score": 5.4384375
+      }
+    ]
+  },
+  {
+    "query": "calculus",
+    "TotalHits": 0,
+    "SearchResults": []
+  },
+  {
+    "query": "email",
+    "TotalHits": 0,
+    "SearchResults": []
+  },
+  {
     "query": "painting",
     "TotalHits": 6,
     "SearchResults": [

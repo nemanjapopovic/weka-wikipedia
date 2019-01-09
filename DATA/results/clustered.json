@@ -1,5 +1,112 @@
 [
   {
+    "query": "genetic",
+    "TotalHits": 11,
+    "SearchResults": [
+      {
+        "Title": "biology__gene-pool-txt",
+        "Score": 5.1033573
+      },
+      {
+        "Title": "biology__genotype-txt",
+        "Score": 4.5147033
+      },
+      {
+        "Title": "biology__bacteroides-txt",
+        "Score": 3.6049373
+      },
+      {
+        "Title": "biology__fauna-txt",
+        "Score": 3.6049373
+      },
+      {
+        "Title": "biology__nucleoid-txt",
+        "Score": 2.8810308
+      },
+      {
+        "Title": "biology__cell-division-txt",
+        "Score": 2.5026956
+      },
+      {
+        "Title": "computer-science__image-processing-txt",
+        "Score": 2.5026956
+      },
+      {
+        "Title": "philosophy__epistemological-idealism-txt",
+        "Score": 2.0551157
+      },
+      {
+        "Title": "philosophy__infinitism-txt",
+        "Score": 2.0551157
+      },
+      {
+        "Title": "biology__habitat-txt",
+        "Score": 1.546099
+      },
+      {
+        "Title": "biology__population-biology-txt",
+        "Score": 1.546099
+      }
+    ]
+  },
+  {
+    "query": "algorithm",
+    "TotalHits": 5,
+    "SearchResults": [
+      {
+        "Title": "computer-science__algorithm-design-txt",
+        "Score": 7.7387757
+      },
+      {
+        "Title": "mathematics__numerical-linear-algebra-txt",
+        "Score": 4.585793
+      },
+      {
+        "Title": "computer-science__computation-txt",
+        "Score": 3.999101
+      },
+      {
+        "Title": "computer-science__model-of-computation-txt",
+        "Score": 3.999101
+      },
+      {
+        "Title": "biology__genotype-txt",
+        "Score": 2.5727732
+      }
+    ]
+  },
+  {
+    "query": "calculus",
+    "TotalHits": 5,
+    "SearchResults": [
+      {
+        "Title": "mathematics__tensor-calculus-txt",
+        "Score": 7.129707
+      },
+      {
+        "Title": "computer-science__model-of-computation-txt",
+        "Score": 5.3468876
+      },
+      {
+        "Title": "computer-science__computation-txt",
+        "Score": 3.999101
+      },
+      {
+        "Title": "mathematics__lie-theory-txt",
+        "Score": 2.5727732
+      },
+      {
+        "Title": "physics__quantum-statistical-mechanics-txt",
+        "Score": 2.5727732
+      }
+    ]
+  },
+  {
+    "query": "email",
+    "TotalHits": 0,
+    "SearchResults": []
+  },
+  {
     "query": "painting",
     "TotalHits": 6,
     "SearchResults": [

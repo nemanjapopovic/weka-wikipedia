@@ -7,7 +7,6 @@ import impl.WikipediaDocuments;
 import lucene.LuceneGlobal;
 import lucene.LuceneWithClasses;
 import lucene.LuceneWithClusters;
-import models.SearchResult;
 import models.SearchResults;
 import models.ShortQuery;
 import models.WikipediaDocument;
@@ -73,24 +72,24 @@ public class InformationRetrieval {
             // Load all search queries used for testing
             queries = new ShortQueries(instances);
 
-//            // Create global lucene search with all wikipedia files in one
-//            luceneGlobal.putDocumentInGlobalLuceneIndex(wikipediaDocuments.documents);
+            // Create global lucene search with all wikipedia files in one
+            luceneGlobal.putDocumentInGlobalLuceneIndex(wikipediaDocuments.documents);
 
             // Create NaiveBayes model, classify wikipedia documents and add them to lucene
             classification();
 
-//            // Create SimpleKMeans model, cluster wikipedia documents and add them to lucene
-//            clusterization();
+            // Create SimpleKMeans model, cluster wikipedia documents and add them to lucene
+            clusterization();
 
             // Prepare lucene for searching
-//            luceneGlobal.prepareForSearch();
-//            luceneWithClusters.prepareForSearch();
+            luceneGlobal.prepareForSearch();
+            luceneWithClusters.prepareForSearch();
             luceneWithClasses.prepareForSearch();
 
-//            // Find the documents with specific search queries
-//            searchInFull();
+            // Find the documents with specific search queries
+            searchInFull();
             searchInClasses();
-//            searchInClusters();
+            searchInClusters();
 
 
             // Compare this list with the expected list that was generated manually
@@ -123,10 +122,6 @@ public class InformationRetrieval {
             double instanceClass = naiveBayesClassifier.classifyInstance(wikiDocument.instance);
             String className = classes.get((int) instanceClass).toString();
 
-            System.out.println(className);
-            System.out.println(wikiDocument.type);
-            System.out.println("===========");
-
             // Add to specific lucene index
             luceneWithClasses.addDocument(wikiDocument, className);
         }
@@ -151,6 +146,7 @@ public class InformationRetrieval {
                 wikipediaDocuments.documents) {
             // Classify instance
             double instanceCluster = clusterer.clusterInstance(wikiDocument.instance);
+            System.out.println(instanceCluster);
 
             // Add to specific lucene index
             luceneWithClusters.addDocument(wikiDocument, (int) instanceCluster);
@@ -170,14 +166,7 @@ public class InformationRetrieval {
                 queries.items) {
             // Search lucene index and store returned results
             SearchResults searchResult = luceneGlobal.search(query.text, NUMBER_OF_SEARCH_RESULTS);
-
             fullLuceneSearchResults.add(searchResult);
-
-            System.out.println(searchResult.TotalHits);
-            for (SearchResult searchResultItem :
-                    searchResult.SearchResults) {
-                System.out.println(searchResultItem.Title);
-            }
         }
 
         watch.stop();
@@ -204,12 +193,12 @@ public class InformationRetrieval {
             // Search lucene index and store returned results
             SearchResults searchResult = luceneWithClasses.search(className, query.text, NUMBER_OF_SEARCH_RESULTS);
             classifiedLuceneSearchResults.add(searchResult);
-
-            System.out.println(searchResult.TotalHits);
-            for (SearchResult searchResultItem :
-                    searchResult.SearchResults) {
-                System.out.println(searchResultItem.Title);
-            }
+//
+//            System.out.println(searchResult.TotalHits);
+//            for (SearchResult searchResultItem :
+//                    searchResult.SearchResults) {
+//                System.out.println(searchResultItem.Title);
+//            }
         }
 
         watch.stop();
@@ -234,12 +223,6 @@ public class InformationRetrieval {
             // Search lucene index and store returned results
             SearchResults searchResult = luceneWithClusters.search((int) instanceCluster, query.text, NUMBER_OF_SEARCH_RESULTS);
             searchResults.add(searchResult);
-
-            System.out.println(searchResult.TotalHits);
-            for (SearchResult searchResultItem :
-                    searchResult.SearchResults) {
-                System.out.println(searchResultItem.Title);
-            }
         }
 
         watch.stop();
